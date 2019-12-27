@@ -1,0 +1,40 @@
+name: rsvp_form_app
+description: A new Flutter application for rsvp form
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  scoped_model: ^1.0.1
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+        - asset: fonts/Rubik-Medium.ttf
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript-Regular.otf
+    - family: DINOT
+      fonts:
+        - asset: fonts/DINOT-Regular.ttf
+        - asset: fonts/DINOT-Bold.otf
+          weight: 700
+    - family: Cookie
+      fonts:
+        - asset: fonts/Cookie-Regular.ttf
+
